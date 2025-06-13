@@ -4,6 +4,7 @@ import Experiences from "./components/Experiences";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import NavbarMain from "./components/navbar/NavbarMain";
+import ContactForm from "./components/ContactForm";
 import { Element } from "react-scroll";
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
       </Element>
       <Element name="projects">
         <Projects />
+      </Element>
+      <Element name="contact">
+        <ContactForm />
       </Element>
     </div>
   );

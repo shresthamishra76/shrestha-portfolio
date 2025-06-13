@@ -1,8 +1,10 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default paddings */
+  width: 100%; /* Explicitly ensure they span full width */
+  min-height: 100vh; /* Ensure they take at least full viewport height */
+  overflow-x: hidden; /* Prevents horizontal scrollbar and associated whitespace */
+  box-sizing: border-box; /* Crucial for consistent sizing */
 }
 
 .logo {

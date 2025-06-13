@@ -5,8 +5,8 @@ import NavbarBtn from "./NavbarBtn";
 
 const NavbarMain = () => {
   return (
-    <nav className="w-full left-0 fixed top-0">
-      <div className="flex justify-between items-center bg-black p-6 gap-x-15">
+    <nav className="w-full left-0 bg-black fixed top-0">
+      <div className="flex justify-between items-center p-6 gap-x-15">
         <NavbarLogo />
         <NavbarLinks />
         <NavbarBtn />
