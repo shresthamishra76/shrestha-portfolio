@@ -1,5 +1,7 @@
 import React from "react";
 
+import resume from "../assets/Shrestha Mishra College Resume.pdf";
+
 const AboutMe = () => {
   return (
     <div className="flex space-x-20 p-10 bg-gold text-black">
@@ -68,6 +70,13 @@ const AboutMe = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div>
+        <button className="bg-gray-700 text-white px-4 py-2 rounded-md hover:bg-gray-800">
+          <a href={resume} target="_blank" rel="noopener noreferrer">
+            View My Resume
+          </a>
+        </button>
       </div>
     </div>
   );
